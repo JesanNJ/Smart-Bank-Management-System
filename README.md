@@ -1,4 +1,4 @@
-# AI-Driven Bank Management System
+# Smart-Driven Bank Management System
 
 An advanced, console-based C++ banking application that integrates core financial management tools with a **Smart Analyzer**. It allows users to track their spending habits, set monthly budgets, and define long-term savings goals while dynamically assessing their financial health.
 
