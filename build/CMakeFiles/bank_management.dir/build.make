@@ -116,11 +116,26 @@ CMakeFiles/bank_management.dir/src/Budget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_management.dir/src/Budget.cpp.s"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\Budget.cpp -o CMakeFiles\bank_management.dir\src\Budget.cpp.s
 
+CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj: CMakeFiles/bank_management.dir/flags.make
+CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj: CMakeFiles/bank_management.dir/includes_CXX.rsp
+CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj: D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/src/FinancialChatbot.cpp
+CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj: CMakeFiles/bank_management.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj -MF CMakeFiles\bank_management.dir\src\FinancialChatbot.cpp.obj.d -o CMakeFiles\bank_management.dir\src\FinancialChatbot.cpp.obj -c D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\FinancialChatbot.cpp
+
+CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.i"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\FinancialChatbot.cpp > CMakeFiles\bank_management.dir\src\FinancialChatbot.cpp.i
+
+CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.s"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\FinancialChatbot.cpp -o CMakeFiles\bank_management.dir\src\FinancialChatbot.cpp.s
+
 CMakeFiles/bank_management.dir/src/Goal.cpp.obj: CMakeFiles/bank_management.dir/flags.make
 CMakeFiles/bank_management.dir/src/Goal.cpp.obj: CMakeFiles/bank_management.dir/includes_CXX.rsp
 CMakeFiles/bank_management.dir/src/Goal.cpp.obj: D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/src/Goal.cpp
 CMakeFiles/bank_management.dir/src/Goal.cpp.obj: CMakeFiles/bank_management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bank_management.dir/src/Goal.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bank_management.dir/src/Goal.cpp.obj"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_management.dir/src/Goal.cpp.obj -MF CMakeFiles\bank_management.dir\src\Goal.cpp.obj.d -o CMakeFiles\bank_management.dir\src\Goal.cpp.obj -c D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\Goal.cpp
 
 CMakeFiles/bank_management.dir/src/Goal.cpp.i: cmake_force
@@ -135,7 +150,7 @@ CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj: CMakeFiles/bank_managemen
 CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj: CMakeFiles/bank_management.dir/includes_CXX.rsp
 CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj: D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/src/MainWindow.cpp
 CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj: CMakeFiles/bank_management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj -MF CMakeFiles\bank_management.dir\src\MainWindow.cpp.obj.d -o CMakeFiles\bank_management.dir\src\MainWindow.cpp.obj -c D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\MainWindow.cpp
 
 CMakeFiles/bank_management.dir/src/MainWindow.cpp.i: cmake_force
@@ -150,7 +165,7 @@ CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj: CMakeFiles/bank_manage
 CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj: CMakeFiles/bank_management.dir/includes_CXX.rsp
 CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj: D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/src/SmartAnalyzer.cpp
 CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj: CMakeFiles/bank_management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj -MF CMakeFiles\bank_management.dir\src\SmartAnalyzer.cpp.obj.d -o CMakeFiles\bank_management.dir\src\SmartAnalyzer.cpp.obj -c D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\SmartAnalyzer.cpp
 
 CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.i: cmake_force
@@ -165,7 +180,7 @@ CMakeFiles/bank_management.dir/src/Transaction.cpp.obj: CMakeFiles/bank_manageme
 CMakeFiles/bank_management.dir/src/Transaction.cpp.obj: CMakeFiles/bank_management.dir/includes_CXX.rsp
 CMakeFiles/bank_management.dir/src/Transaction.cpp.obj: D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/src/Transaction.cpp
 CMakeFiles/bank_management.dir/src/Transaction.cpp.obj: CMakeFiles/bank_management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bank_management.dir/src/Transaction.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/bank_management.dir/src/Transaction.cpp.obj"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_management.dir/src/Transaction.cpp.obj -MF CMakeFiles\bank_management.dir\src\Transaction.cpp.obj.d -o CMakeFiles\bank_management.dir\src\Transaction.cpp.obj -c D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\Transaction.cpp
 
 CMakeFiles/bank_management.dir/src/Transaction.cpp.i: cmake_force
@@ -180,7 +195,7 @@ CMakeFiles/bank_management.dir/src/User.cpp.obj: CMakeFiles/bank_management.dir/
 CMakeFiles/bank_management.dir/src/User.cpp.obj: CMakeFiles/bank_management.dir/includes_CXX.rsp
 CMakeFiles/bank_management.dir/src/User.cpp.obj: D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/src/User.cpp
 CMakeFiles/bank_management.dir/src/User.cpp.obj: CMakeFiles/bank_management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/bank_management.dir/src/User.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/bank_management.dir/src/User.cpp.obj"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_management.dir/src/User.cpp.obj -MF CMakeFiles\bank_management.dir\src\User.cpp.obj.d -o CMakeFiles\bank_management.dir\src\User.cpp.obj -c D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\User.cpp
 
 CMakeFiles/bank_management.dir/src/User.cpp.i: cmake_force
@@ -195,7 +210,7 @@ CMakeFiles/bank_management.dir/src/main.cpp.obj: CMakeFiles/bank_management.dir/
 CMakeFiles/bank_management.dir/src/main.cpp.obj: CMakeFiles/bank_management.dir/includes_CXX.rsp
 CMakeFiles/bank_management.dir/src/main.cpp.obj: D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/src/main.cpp
 CMakeFiles/bank_management.dir/src/main.cpp.obj: CMakeFiles/bank_management.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/bank_management.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/bank_management.dir/src/main.cpp.obj"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_management.dir/src/main.cpp.obj -MF CMakeFiles\bank_management.dir\src\main.cpp.obj.d -o CMakeFiles\bank_management.dir\src\main.cpp.obj -c D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\src\main.cpp
 
 CMakeFiles/bank_management.dir/src/main.cpp.i: cmake_force
@@ -211,6 +226,7 @@ bank_management_OBJECTS = \
 "CMakeFiles/bank_management.dir/src/Account.cpp.obj" \
 "CMakeFiles/bank_management.dir/src/BankSystem.cpp.obj" \
 "CMakeFiles/bank_management.dir/src/Budget.cpp.obj" \
+"CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj" \
 "CMakeFiles/bank_management.dir/src/Goal.cpp.obj" \
 "CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj" \
 "CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj" \
@@ -224,6 +240,7 @@ bank_management_EXTERNAL_OBJECTS =
 bank_management.exe: CMakeFiles/bank_management.dir/src/Account.cpp.obj
 bank_management.exe: CMakeFiles/bank_management.dir/src/BankSystem.cpp.obj
 bank_management.exe: CMakeFiles/bank_management.dir/src/Budget.cpp.obj
+bank_management.exe: CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj
 bank_management.exe: CMakeFiles/bank_management.dir/src/Goal.cpp.obj
 bank_management.exe: CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj
 bank_management.exe: CMakeFiles/bank_management.dir/src/SmartAnalyzer.cpp.obj
@@ -234,7 +251,7 @@ bank_management.exe: CMakeFiles/bank_management.dir/build.make
 bank_management.exe: CMakeFiles/bank_management.dir/linkLibs.rsp
 bank_management.exe: CMakeFiles/bank_management.dir/objects1.rsp
 bank_management.exe: CMakeFiles/bank_management.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bank_management.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\GITHUB_REPOs\AI-Driven-Bank-Management-System\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable bank_management.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\bank_management.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -200,6 +200,30 @@ src/Budget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_management.dir\build.make CMakeFiles/bank_management.dir/src/Budget.cpp.s
 .PHONY : src/Budget.cpp.s
 
+src/FinancialChatbot.obj: src/FinancialChatbot.cpp.obj
+.PHONY : src/FinancialChatbot.obj
+
+# target to build an object file
+src/FinancialChatbot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_management.dir\build.make CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj
+.PHONY : src/FinancialChatbot.cpp.obj
+
+src/FinancialChatbot.i: src/FinancialChatbot.cpp.i
+.PHONY : src/FinancialChatbot.i
+
+# target to preprocess a source file
+src/FinancialChatbot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_management.dir\build.make CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.i
+.PHONY : src/FinancialChatbot.cpp.i
+
+src/FinancialChatbot.s: src/FinancialChatbot.cpp.s
+.PHONY : src/FinancialChatbot.s
+
+# target to generate assembly for a file
+src/FinancialChatbot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_management.dir\build.make CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.s
+.PHONY : src/FinancialChatbot.cpp.s
+
 src/Goal.obj: src/Goal.cpp.obj
 .PHONY : src/Goal.obj
 
@@ -362,6 +386,9 @@ help:
 	@echo ... src/Budget.obj
 	@echo ... src/Budget.i
 	@echo ... src/Budget.s
+	@echo ... src/FinancialChatbot.obj
+	@echo ... src/FinancialChatbot.i
+	@echo ... src/FinancialChatbot.s
 	@echo ... src/Goal.obj
 	@echo ... src/Goal.i
 	@echo ... src/Goal.s

@@ -16,3 +16,7 @@ target_include_directories(bank_management PRIVATE
     "${CMAKE_CURRENT_SOURCE_DIR}/include"
 )
 
+if(WIN32)
+  target_link_libraries(bank_management PRIVATE winhttp)
+endif()
+

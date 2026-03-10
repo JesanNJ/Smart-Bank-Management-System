@@ -152,4 +152,5 @@ CMakeFiles/bank_management.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/ctime \
  D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/include/Goal.h \
  D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/include/SmartAnalyzer.h \
- D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/include/User.h
+ D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/include/User.h \
+ D:/GITHUB_REPOs/AI-Driven-Bank-Management-System/include/FinancialChatbot.h
