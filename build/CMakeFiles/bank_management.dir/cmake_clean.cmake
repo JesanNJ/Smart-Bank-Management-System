@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bank_management.dir/src/BankSystem.cpp.obj.d"
   "CMakeFiles/bank_management.dir/src/Budget.cpp.obj"
   "CMakeFiles/bank_management.dir/src/Budget.cpp.obj.d"
+  "CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj"
+  "CMakeFiles/bank_management.dir/src/FinancialChatbot.cpp.obj.d"
   "CMakeFiles/bank_management.dir/src/Goal.cpp.obj"
   "CMakeFiles/bank_management.dir/src/Goal.cpp.obj.d"
   "CMakeFiles/bank_management.dir/src/MainWindow.cpp.obj"

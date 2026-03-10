@@ -1,6 +1,7 @@
 #pragma once
 
 #include "BankSystem.h"
+#include "FinancialChatbot.h"
 
 // Simple console "UI" class that presents menus
 // and delegates work to BankSystem. This keeps main.cpp
@@ -12,6 +13,7 @@ public:
 
 private:
   BankSystem m_bankSystem;
+  FinancialChatbot m_chatbot;
   void populateDummyData();
 
   int m_loggedInUserId{-1};
@@ -41,6 +43,7 @@ private:
   void doMonthlyReport();
   void doSpendingTrendComparison();
   void doRiskAndAIAnalysis();
+  void doFinancialChatbot();
 
   void doAdminViewAllUsers();
   void doAdminViewAllAccounts();

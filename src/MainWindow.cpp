@@ -383,6 +383,7 @@ void MainWindow::showMainMenu() {
   std::cout << " 6) Monthly Report Generator\n";
   std::cout << " 7) Spending Trend Comparison\n";
   std::cout << " 8) Risk Alerts & AI Analysis\n";
+  std::cout << " 9) Financial Insights Chatbot\n";
   std::cout << " 0) Logout\n";
 }
 
@@ -411,6 +412,9 @@ void MainWindow::handleMainChoice(int choice) {
     break;
   case 8:
     doRiskAndAIAnalysis();
+    break;
+  case 9:
+    doFinancialChatbot();
     break;
   default:
     std::cout << "Unknown option.\n";
@@ -767,5 +771,46 @@ void MainWindow::doRiskAndAIAnalysis() {
   std::cout << "\nPersonalized recommendations:\n";
   for (const auto &r : result.recommendations) {
     std::cout << " - " << r << "\n";
+  }
+}
+
+void MainWindow::doFinancialChatbot() {
+  ensureLoggedIn();
+  if (m_loggedInUserId < 0)
+    return;
+
+  auto result = m_bankSystem.runAnalysis(m_loggedInUserId);
+  const Account *acc = m_bankSystem.getAccount(m_loggedInAccountId);
+  const Goal &goal = m_bankSystem.getGoalForUser(m_loggedInUserId);
+  double balance = acc ? acc->getBalance() : 0.0;
+
+  m_chatbot.setContext(result, balance, goal);
+
+  std::cout << "\n";
+  std::cout << "+----------------------------------------------------------+\n";
+  std::cout << "|           Financial Insights Chatbot (Gemini 3)          |\n";
+  std::cout << "| Ask anything about your finances. Replies from Gemini 3. |\n";
+  std::cout << "| Set GEMINI_API_KEY in your environment for API access.   |\n";
+  std::cout << "| Type 'exit' or 'quit' to return to the main menu.        |\n";
+  std::cout << "+----------------------------------------------------------+\n";
+  std::cout << "\n";
+
+  while (true) {
+    std::string input = readLine("You: ");
+    if (input.empty())
+      continue;
+
+    std::string lower = input;
+    for (auto &c : lower)
+      c = static_cast<char>(std::tolower(static_cast<unsigned char>(c)));
+
+    if (lower == "exit" || lower == "quit" || lower == "bye") {
+      std::cout
+          << "\nAssistant: Goodbye. Return anytime for financial insights.\n\n";
+      break;
+    }
+
+    std::string reply = m_chatbot.respond(input);
+    std::cout << "\nAssistant: " << reply << "\n\n";
   }
 }

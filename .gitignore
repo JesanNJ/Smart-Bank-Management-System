@@ -1,0 +1,23 @@
+# Environment and secrets (do not commit)
+.env
+
+# Build
+build/
+out/
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
